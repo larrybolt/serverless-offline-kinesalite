@@ -62,7 +62,7 @@ type ServiceWithResource = Service & {
   };
 };
 
-export class ServerlessOfflinekinesalite {
+export default class ServerlessOfflinekinesalite {
   serverless: Serverless;
   service: ServiceWithResource;
   options: Options;
