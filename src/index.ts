@@ -22,7 +22,7 @@ export interface StringEventObject {
   arn?:
     | string
     | {
-        "Fn::GetAtt": string;
+        "Fn::GetAtt": string[];
       };
 }
 export type StreamEvent = string | StringEventObject;
@@ -62,7 +62,7 @@ type ServiceWithResource = Service & {
   };
 };
 
-export default class ServerlessOfflinekinesalite {
+export class ServerlessOfflinekinesalite {
   serverless: Serverless;
   service: ServiceWithResource;
   options: Options;
@@ -291,3 +291,4 @@ export default class ServerlessOfflinekinesalite {
   }
   offlineStartEnd() {}
 }
+module.exports = ServerlessOfflinekinesalite;
