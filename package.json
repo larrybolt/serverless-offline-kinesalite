@@ -1,6 +1,6 @@
 {
   "name": "serverless-offline-kinesalite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Can I haz Serverless-offline and Kinesis locally, pls",
   "main": "dist",
   "repository": {
