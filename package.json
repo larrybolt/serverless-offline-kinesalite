@@ -5,16 +5,16 @@
   "main": "dist",
   "repository": {
     "type": "git",
-    "url": "git@github.com:catsies-dev/serverless-offline-kinesalite.git"
+    "url": "git@github.com:larrybolt/serverless-offline-kinesalite.git"
   },
   "bugs": {
-    "url": "https://github.com/catsies-dev/serverless-offline-kinesalite/issues"
+    "url": "https://github.com/larrybolt/serverless-offline-kinesalite/issues"
   },
-  "homepage": "https://github.com/catsies-dev/serverless-offline-kinesalite",
+  "homepage": "https://github.com/larrybolt/serverless-offline-kinesalite",
   "files": [
     "dist/"
   ],
-  "author": "catsies",
+  "author": "larrybolt",
   "license": "MIT",
   "peerDependencies": {
     "serverless-offline": "^5.11.0"
